@@ -4,7 +4,7 @@
 <style>
     body {
         background-image: url("images/DSC04284.jpg"), linear-gradient(purple, blue);
-        overflow:visible;
+        overflow:hidden;
         background-size: contain;
         background-repeat:no-repeat;
         min-height:100vh;
@@ -19,14 +19,52 @@
         position:relative;
         display:flex;
         justify-content:center;
-        width:50%;
+        width:fit-content;
         align-items:center;
         background-color:rgb(177, 255, 157);
         margin:0 auto;
+        padding:10px;
+    }
+    div.bar {
+        position:absolute;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        left:5%;
+        width:90%;
+        background-color: aquamarine;
+        bottom:1%;
+        padding:10px;
+        overflow:hidden;
+        margin:0 auto;
+    }
+    p {
+        text-align: center;
+    }
+    div.random_box {
+        position:absolute;
+        top:30%;
+        left:16%;
+        width:300px;
+        height:200px;
+        background-color: rgb(255, 0, 0);
+        margin:0 auto;
+        border: solid 12px;
+        border-color:blueviolet;
+        border-radius: 50%;
     }
 </style>
 </head>
 <body>
-<div class="glarg"><h1>welcome to swagOS<br>the swaggest os</h1></div>
+    <div class="bar">
+        <p>swagOS v1.2</p>
+        <p>25/05/05/05/05/05/05/05</p>
+        <p>9:99:99;99:99AM</p>
+        <p>17 38 im like hey whats up hello</p>
+    </div>
+    <div class="random_box">
+        <h1>my names swaggart johnson whats up</h1>
+    </div>
+    <div class="glarg"><h1>welcome to swagOS<br>the swaggest os</h1></div>
 
 </body>
