@@ -62,6 +62,25 @@
     .random_box:hover {
         transform:rotate(360deg) scale(1.2);
     }
+    
+    div.box3 {
+        position:absolute;
+        top:35%;
+        left:66%;
+        width:300px;
+        height:200px;
+        background-color: rgb(49, 49, 236);
+        margin:0 auto;
+        border: solid 12px;
+        border-color:greenyellow; 
+    }
+    div.box3header {
+        cursor:move;
+        z-index:10;
+        width:300px;
+        height:20px;
+        background-color:green;
+    }
 </style>
 </head>
 <body>
@@ -74,6 +93,10 @@
     <div class="random_box">
         <h1>my names swaggart johnson whats up</h1>
     </div>
+    <div id="movebox" class="box3">
+        <div id="moveboxheader" class="box3header"><p>box</p></div>
+        <p>box</p>
+    </div>
     <div class="glarg"><h1>welcome to swagOS<br>the swaggest os</h1></div>
-
+<script src="script.js"></script>
 </body>
