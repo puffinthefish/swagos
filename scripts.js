@@ -1,4 +1,5 @@
 dragElement(document.getElementById("movebox"));
+dragElement(document.getElementById("movebox2"));
 
 function dragElement(element) {
     var initialX = 0;
